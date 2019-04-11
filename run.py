@@ -1,4 +1,6 @@
-rom __future__ import print_function # In python 2.7
+#!/usr/bin/env python
+
+from __future__ import print_function # In python 2.7
 from flask import Flask
 from flask import jsonify
 from flask import abort, request
