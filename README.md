@@ -1,6 +1,11 @@
 # Restart-supervisor-api 
 - Installing Python Modules : 
 + pip install flask flask_restful flask_httpauth xmlrpclib
+- Run service : 
+  +chmod +x run.py 
+
+  +python run.py
+
 Use restart supervisor
 HELP : curl http://127.0.0.1:5000
 
