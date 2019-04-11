@@ -2,6 +2,7 @@
 - Installing Python Modules : 
 + pip install flask flask_restful flask_httpauth xmlrpclib
 - Run service : 
+
   +chmod +x run.py 
 
   +python run.py
