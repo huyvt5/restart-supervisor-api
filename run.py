@@ -11,8 +11,8 @@ auth = HTTPBasicAuth()
 help_message = """
 API Usage:
 
-- Restart service :   http://127.0.0.1:5000/ip/nameproces --user user:password
-- Add process and reload config : http://127.0.0.1:5000/add/ip/nameprocess --user user:password
+- Restart service :   curl http://127.0.0.1:5000/ip/nameproces --user user:password
+- Add process and reload config : curl http://127.0.0.1:5000/add/ip/nameprocess --user user:password
 
 """
 ## Help
